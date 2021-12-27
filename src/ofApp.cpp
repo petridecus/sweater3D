@@ -42,7 +42,7 @@ void ofApp::setup(){
 void ofApp::update(){
     ++counter;
 
-    if (counter > 180) {
+    if (counter > 360) {
         counter = 0;
         ++sweaterIndex;
         sweaterIndex %= fbxs.size();
