@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxFBX.h"
+#include "Snowflake.h"
 
 class ofApp : public ofBaseApp{
 
@@ -13,6 +14,7 @@ class ofApp : public ofBaseApp{
 	private:
 		ofEasyCam cam;
 		vector<ofxFBX> fbxs;
+		vector<Snowflake> snowflakes;
 
 		size_t counter;
 		size_t sweaterIndex;
